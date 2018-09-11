@@ -9,23 +9,48 @@
 /* Begin PBXBuildFile section */
 		C5D39FEF2147E2440075D7AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D39FEE2147E2440075D7AB /* AppDelegate.swift */; };
 		C5D39FF12147E2440075D7AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D39FF02147E2440075D7AB /* ViewController.swift */; };
-		C5D39FF42147E2440075D7AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D39FF22147E2440075D7AB /* Main.storyboard */; };
 		C5D39FF62147E2460075D7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D39FF52147E2460075D7AB /* Assets.xcassets */; };
 		C5D39FF92147E2460075D7AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D39FF72147E2460075D7AB /* LaunchScreen.storyboard */; };
+		C5D3A0012147E6050075D7AB /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D3A0002147E6050075D7AB /* AlertPresenter.swift */; };
+		C5D3A01121480A9B0075D7AB /* AlertPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D3A01021480A9B0075D7AB /* AlertPresenterTests.swift */; };
+		C5E531DD214812A200ABE21F /* XorObfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E531DC214812A200ABE21F /* XorObfuscator.swift */; };
+		C5E531DF2148485E00ABE21F /* XorObfuscatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E531DE2148485E00ABE21F /* XorObfuscatorTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C5D3A00B21480A240075D7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5D39FE32147E2430075D7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5D39FEA2147E2440075D7AB;
+			remoteInfo = ABObfusctaedAlerts;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		C5D39FEB2147E2440075D7AB /* ABObfusctaedAlerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABObfusctaedAlerts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D39FEB2147E2440075D7AB /* ABObfuscatedAlerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABObfuscatedAlerts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D39FEE2147E2440075D7AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5D39FF02147E2440075D7AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C5D39FF32147E2440075D7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5D39FF52147E2460075D7AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5D39FF82147E2460075D7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5D39FFA2147E2460075D7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D3A0002147E6050075D7AB /* AlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
+		C5D3A00621480A240075D7AB /* ABObfuscatedAlertsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABObfuscatedAlertsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D3A00A21480A240075D7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D3A01021480A9B0075D7AB /* AlertPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenterTests.swift; sourceTree = "<group>"; };
+		C5E531DC214812A200ABE21F /* XorObfuscator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XorObfuscator.swift; sourceTree = "<group>"; };
+		C5E531DE2148485E00ABE21F /* XorObfuscatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XorObfuscatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C5D39FE82147E2440075D7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D3A00321480A240075D7AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +63,8 @@
 		C5D39FE22147E2430075D7AB = {
 			isa = PBXGroup;
 			children = (
-				C5D39FED2147E2440075D7AB /* ABObfusctaedAlerts */,
+				C5D39FED2147E2440075D7AB /* ABObfuscatedAlerts */,
+				C5D3A00721480A240075D7AB /* ABObfuscatedAlertsTests */,
 				C5D39FEC2147E2440075D7AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +72,42 @@
 		C5D39FEC2147E2440075D7AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C5D39FEB2147E2440075D7AB /* ABObfusctaedAlerts.app */,
+				C5D39FEB2147E2440075D7AB /* ABObfuscatedAlerts.app */,
+				C5D3A00621480A240075D7AB /* ABObfuscatedAlertsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C5D39FED2147E2440075D7AB /* ABObfusctaedAlerts */ = {
+		C5D39FED2147E2440075D7AB /* ABObfuscatedAlerts */ = {
 			isa = PBXGroup;
 			children = (
 				C5D39FEE2147E2440075D7AB /* AppDelegate.swift */,
 				C5D39FF02147E2440075D7AB /* ViewController.swift */,
-				C5D39FF22147E2440075D7AB /* Main.storyboard */,
+				C5D3A0002147E6050075D7AB /* AlertPresenter.swift */,
+				C5E531DC214812A200ABE21F /* XorObfuscator.swift */,
 				C5D39FF52147E2460075D7AB /* Assets.xcassets */,
 				C5D39FF72147E2460075D7AB /* LaunchScreen.storyboard */,
 				C5D39FFA2147E2460075D7AB /* Info.plist */,
 			);
-			path = ABObfusctaedAlerts;
+			path = ABObfuscatedAlerts;
+			sourceTree = "<group>";
+		};
+		C5D3A00721480A240075D7AB /* ABObfuscatedAlertsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5D3A01021480A9B0075D7AB /* AlertPresenterTests.swift */,
+				C5E531DE2148485E00ABE21F /* XorObfuscatorTests.swift */,
+				C5D3A00A21480A240075D7AB /* Info.plist */,
+			);
+			path = ABObfuscatedAlertsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C5D39FEA2147E2440075D7AB /* ABObfusctaedAlerts */ = {
+		C5D39FEA2147E2440075D7AB /* ABObfuscatedAlerts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5D39FFD2147E2460075D7AB /* Build configuration list for PBXNativeTarget "ABObfusctaedAlerts" */;
+			buildConfigurationList = C5D39FFD2147E2460075D7AB /* Build configuration list for PBXNativeTarget "ABObfuscatedAlerts" */;
 			buildPhases = (
 				C5D39FE72147E2440075D7AB /* Sources */,
 				C5D39FE82147E2440075D7AB /* Frameworks */,
@@ -79,10 +117,28 @@
 			);
 			dependencies = (
 			);
-			name = ABObfusctaedAlerts;
+			name = ABObfuscatedAlerts;
 			productName = ABObfusctaedAlerts;
-			productReference = C5D39FEB2147E2440075D7AB /* ABObfusctaedAlerts.app */;
+			productReference = C5D39FEB2147E2440075D7AB /* ABObfuscatedAlerts.app */;
 			productType = "com.apple.product-type.application";
+		};
+		C5D3A00521480A240075D7AB /* ABObfuscatedAlertsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D3A00D21480A240075D7AB /* Build configuration list for PBXNativeTarget "ABObfuscatedAlertsTests" */;
+			buildPhases = (
+				C5D3A00221480A240075D7AB /* Sources */,
+				C5D3A00321480A240075D7AB /* Frameworks */,
+				C5D3A00421480A240075D7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5D3A00C21480A240075D7AB /* PBXTargetDependency */,
+			);
+			name = ABObfuscatedAlertsTests;
+			productName = ABObfusctaedAlertsTests;
+			productReference = C5D3A00621480A240075D7AB /* ABObfuscatedAlertsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,9 +153,14 @@
 					C5D39FEA2147E2440075D7AB = {
 						CreatedOnToolsVersion = 9.4;
 					};
+					C5D3A00521480A240075D7AB = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
+						TestTargetID = C5D39FEA2147E2440075D7AB;
+					};
 				};
 			};
-			buildConfigurationList = C5D39FE62147E2430075D7AB /* Build configuration list for PBXProject "ABObfusctaedAlerts" */;
+			buildConfigurationList = C5D39FE62147E2430075D7AB /* Build configuration list for PBXProject "ABObfuscatedAlerts" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +173,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C5D39FEA2147E2440075D7AB /* ABObfusctaedAlerts */,
+				C5D39FEA2147E2440075D7AB /* ABObfuscatedAlerts */,
+				C5D3A00521480A240075D7AB /* ABObfuscatedAlertsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -124,7 +186,13 @@
 			files = (
 				C5D39FF92147E2460075D7AB /* LaunchScreen.storyboard in Resources */,
 				C5D39FF62147E2460075D7AB /* Assets.xcassets in Resources */,
-				C5D39FF42147E2440075D7AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D3A00421480A240075D7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,20 +205,31 @@
 			files = (
 				C5D39FF12147E2440075D7AB /* ViewController.swift in Sources */,
 				C5D39FEF2147E2440075D7AB /* AppDelegate.swift in Sources */,
+				C5D3A0012147E6050075D7AB /* AlertPresenter.swift in Sources */,
+				C5E531DD214812A200ABE21F /* XorObfuscator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D3A00221480A240075D7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D3A01121480A9B0075D7AB /* AlertPresenterTests.swift in Sources */,
+				C5E531DF2148485E00ABE21F /* XorObfuscatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		C5D39FF22147E2440075D7AB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5D39FF32147E2440075D7AB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		C5D3A00C21480A240075D7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5D39FEA2147E2440075D7AB /* ABObfuscatedAlerts */;
+			targetProxy = C5D3A00B21480A240075D7AB /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		C5D39FF72147E2460075D7AB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,12 +361,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V6N36H6375;
-				INFOPLIST_FILE = ABObfusctaedAlerts/Info.plist;
+				INFOPLIST_FILE = ABObfuscatedAlerts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rifinio.ABObfusctaedAlerts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rifinio.ABObfuscatedAlerts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,22 +380,66 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V6N36H6375;
-				INFOPLIST_FILE = ABObfusctaedAlerts/Info.plist;
+				INFOPLIST_FILE = ABObfuscatedAlerts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rifinio.ABObfusctaedAlerts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rifinio.ABObfuscatedAlerts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
+		C5D3A00E21480A240075D7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6N36H6375;
+				INFOPLIST_FILE = ABObfuscatedAlertsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rifinio.ABObfuscatedAlertsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABObfuscatedAlerts.app/ABObfuscatedAlerts";
+			};
+			name = Debug;
+		};
+		C5D3A00F21480A240075D7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6N36H6375;
+				INFOPLIST_FILE = ABObfuscatedAlertsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rifinio.ABObfuscatedAlertsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABObfuscatedAlerts.app/ABObfuscatedAlerts";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C5D39FE62147E2430075D7AB /* Build configuration list for PBXProject "ABObfusctaedAlerts" */ = {
+		C5D39FE62147E2430075D7AB /* Build configuration list for PBXProject "ABObfuscatedAlerts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5D39FFB2147E2460075D7AB /* Debug */,
@@ -324,11 +448,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5D39FFD2147E2460075D7AB /* Build configuration list for PBXNativeTarget "ABObfusctaedAlerts" */ = {
+		C5D39FFD2147E2460075D7AB /* Build configuration list for PBXNativeTarget "ABObfuscatedAlerts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5D39FFE2147E2460075D7AB /* Debug */,
 				C5D39FFF2147E2460075D7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D3A00D21480A240075D7AB /* Build configuration list for PBXNativeTarget "ABObfuscatedAlertsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D3A00E21480A240075D7AB /* Debug */,
+				C5D3A00F21480A240075D7AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
