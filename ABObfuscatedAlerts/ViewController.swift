@@ -24,7 +24,9 @@ class ViewController: UIViewController {
 
         alertButton = UIButton(type: .system)
         view.addSubview(alertButton)
-        alertButton.setTitle("Show Alerts", for: .normal)
+        alertButton.setTitle("Show Alert!", for: .normal)
+        alertButton.setTitleColor(.white, for: .normal)
+        alertButton.titleLabel?.font = UIFont.systemFont(ofSize: 34)
         alertButton.addTarget(self, action: #selector(showAlert), for: .touchUpInside)
     }
 

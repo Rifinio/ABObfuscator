@@ -15,6 +15,7 @@ protocol Obfuscable {
 
 import Foundation
 
+// Class implemetation using the Xor operator for encrypting and decrypting
 class XorObfuscator: Obfuscable {
     var salt: String
 
