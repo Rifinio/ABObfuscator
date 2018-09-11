@@ -13,6 +13,7 @@
 		C5D39FF92147E2460075D7AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D39FF72147E2460075D7AB /* LaunchScreen.storyboard */; };
 		C5D3A0012147E6050075D7AB /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D3A0002147E6050075D7AB /* AlertPresenter.swift */; };
 		C5D3A01121480A9B0075D7AB /* AlertPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D3A01021480A9B0075D7AB /* AlertPresenterTests.swift */; };
+		C5E531DD214812A200ABE21F /* XorObfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E531DC214812A200ABE21F /* XorObfuscator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C5D3A00621480A240075D7AB /* ABObfuscatedAlertsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABObfuscatedAlertsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D3A00A21480A240075D7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D3A01021480A9B0075D7AB /* AlertPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenterTests.swift; sourceTree = "<group>"; };
+		C5E531DC214812A200ABE21F /* XorObfuscator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XorObfuscator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +81,11 @@
 			children = (
 				C5D39FEE2147E2440075D7AB /* AppDelegate.swift */,
 				C5D39FF02147E2440075D7AB /* ViewController.swift */,
+				C5D3A0002147E6050075D7AB /* AlertPresenter.swift */,
+				C5E531DC214812A200ABE21F /* XorObfuscator.swift */,
 				C5D39FF52147E2460075D7AB /* Assets.xcassets */,
 				C5D39FF72147E2460075D7AB /* LaunchScreen.storyboard */,
 				C5D39FFA2147E2460075D7AB /* Info.plist */,
-				C5D3A0002147E6050075D7AB /* AlertPresenter.swift */,
 			);
 			path = ABObfuscatedAlerts;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				C5D39FF12147E2440075D7AB /* ViewController.swift in Sources */,
 				C5D39FEF2147E2440075D7AB /* AppDelegate.swift in Sources */,
 				C5D3A0012147E6050075D7AB /* AlertPresenter.swift in Sources */,
+				C5E531DD214812A200ABE21F /* XorObfuscator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
