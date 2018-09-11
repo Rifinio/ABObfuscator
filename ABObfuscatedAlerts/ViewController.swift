@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     }
 
     func setupView() {
-        view.backgroundColor = .white
+        view.backgroundColor = UIColor(red: 184/255, green: 0, blue: 184/255, alpha: 1)
 
         alertButton = UIButton(type: .system)
         view.addSubview(alertButton)
