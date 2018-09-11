@@ -22,6 +22,16 @@ alertPresenter.showAlert(from: self, title: "title", message: "message", actions
 ```
 
 # How to use XORObfuscator
+A protocol `Obfuscable` contains the contract for any new obfuscating method and only lets the developer to add the implementation specifics.
+
+```swift
+protocol Obfuscable {
+    var salt: String { get }
+    init(salt: String)
+    func obfuscate(string: String) -> [UInt8]
+    func deobfuscate(key: [UInt8]) -> String
+}
+```
 ## Instantiate
 ```swift
 // Create a salt key using a selection of class names so you don't have to risk saving a plain key
