@@ -12,6 +12,7 @@
 		C5D39FF62147E2460075D7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D39FF52147E2460075D7AB /* Assets.xcassets */; };
 		C5D39FF92147E2460075D7AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D39FF72147E2460075D7AB /* LaunchScreen.storyboard */; };
 		C5D3A0012147E6050075D7AB /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D3A0002147E6050075D7AB /* AlertPresenter.swift */; };
+		C5D3A01121480A9B0075D7AB /* AlertPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D3A01021480A9B0075D7AB /* AlertPresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		C5D3A0002147E6050075D7AB /* AlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
 		C5D3A00621480A240075D7AB /* ABObfusctaedAlertsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABObfusctaedAlertsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D3A00A21480A240075D7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D3A01021480A9B0075D7AB /* AlertPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		C5D3A00721480A240075D7AB /* ABObfusctaedAlertsTests */ = {
 			isa = PBXGroup;
 			children = (
+				C5D3A01021480A9B0075D7AB /* AlertPresenterTests.swift */,
 				C5D3A00A21480A240075D7AB /* Info.plist */,
 			);
 			path = ABObfusctaedAlertsTests;
@@ -146,6 +149,7 @@
 					};
 					C5D3A00521480A240075D7AB = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 						TestTargetID = C5D39FEA2147E2440075D7AB;
 					};
 				};
@@ -203,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D3A01121480A9B0075D7AB /* AlertPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +389,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V6N36H6375;
 				INFOPLIST_FILE = ABObfusctaedAlertsTests/Info.plist;
@@ -394,6 +400,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rifinio.ABObfusctaedAlertsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABObfusctaedAlerts.app/ABObfusctaedAlerts";
@@ -404,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V6N36H6375;
 				INFOPLIST_FILE = ABObfusctaedAlertsTests/Info.plist;
