@@ -10,27 +10,65 @@ import XCTest
 @testable import ABObfuscatedAlerts
 
 class AlertPresenterTests: XCTestCase {
-    
+
+    var alertPresenter: AlertPresenter!
+
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        alertPresenter = AlertPresenter()
     }
-    
+
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        alertPresenter = nil
         super.tearDown()
     }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+
+    func testAlertPresenterHasCorrectTitleAndMessage() {
+        //given
+        let viewController = UIViewController()
+        let title = "title"
+        let message = "message"
+
+        //when
+        alertPresenter.showAlert(from: viewController, title: title, message: message, actions: nil, completion: nil)
+
+        //then
+        XCTAssertEqual(alertPresenter.alertController.title, title)
+        XCTAssertEqual(alertPresenter.alertController.message, message)
     }
-    
+
+    func testAlertPresenterHasNoActions() {
+        //given
+        let viewController = UIViewController()
+        let title = "title"
+        let message = "message"
+
+        //when
+        alertPresenter.showAlert(from: viewController, title: title, message: message, actions: nil, completion: nil)
+
+        //then
+        XCTAssertEqual(alertPresenter.alertController.actions.count, 0)
+    }
+
+    func testAlertPresenterHasCorrectActionsCount() {
+        //given
+        let viewController = UIViewController()
+        let title = "title"
+        let message = "message"
+        let action1 = UIAlertAction(title: "", style: .cancel, handler: nil)
+        let action2 = UIAlertAction(title: "", style: .default, handler: nil)
+
+        //when
+        alertPresenter.showAlert(from: viewController, title: title, message: message, actions: [action1, action2], completion: nil)
+
+        //then
+        XCTAssertEqual(alertPresenter.alertController.actions.count, 2)
+    }
+
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.
         }
     }
-    
 }
