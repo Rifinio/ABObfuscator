@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import ABObfusctaedAlerts
+@testable import ABObfuscatedAlerts
 
 class AlertPresenterTests: XCTestCase {
     

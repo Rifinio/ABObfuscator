@@ -26,14 +26,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C5D39FEB2147E2440075D7AB /* ABObfusctaedAlerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABObfusctaedAlerts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D39FEB2147E2440075D7AB /* ABObfuscatedAlerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABObfuscatedAlerts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D39FEE2147E2440075D7AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5D39FF02147E2440075D7AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C5D39FF52147E2460075D7AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5D39FF82147E2460075D7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5D39FFA2147E2460075D7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D3A0002147E6050075D7AB /* AlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
-		C5D3A00621480A240075D7AB /* ABObfusctaedAlertsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABObfusctaedAlertsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D3A00621480A240075D7AB /* ABObfuscatedAlertsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABObfuscatedAlertsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D3A00A21480A240075D7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D3A01021480A9B0075D7AB /* AlertPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,8 +59,8 @@
 		C5D39FE22147E2430075D7AB = {
 			isa = PBXGroup;
 			children = (
-				C5D39FED2147E2440075D7AB /* ABObfusctaedAlerts */,
-				C5D3A00721480A240075D7AB /* ABObfusctaedAlertsTests */,
+				C5D39FED2147E2440075D7AB /* ABObfuscatedAlerts */,
+				C5D3A00721480A240075D7AB /* ABObfuscatedAlertsTests */,
 				C5D39FEC2147E2440075D7AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,13 +68,13 @@
 		C5D39FEC2147E2440075D7AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C5D39FEB2147E2440075D7AB /* ABObfusctaedAlerts.app */,
-				C5D3A00621480A240075D7AB /* ABObfusctaedAlertsTests.xctest */,
+				C5D39FEB2147E2440075D7AB /* ABObfuscatedAlerts.app */,
+				C5D3A00621480A240075D7AB /* ABObfuscatedAlertsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C5D39FED2147E2440075D7AB /* ABObfusctaedAlerts */ = {
+		C5D39FED2147E2440075D7AB /* ABObfuscatedAlerts */ = {
 			isa = PBXGroup;
 			children = (
 				C5D39FEE2147E2440075D7AB /* AppDelegate.swift */,
@@ -84,24 +84,24 @@
 				C5D39FFA2147E2460075D7AB /* Info.plist */,
 				C5D3A0002147E6050075D7AB /* AlertPresenter.swift */,
 			);
-			path = ABObfusctaedAlerts;
+			path = ABObfuscatedAlerts;
 			sourceTree = "<group>";
 		};
-		C5D3A00721480A240075D7AB /* ABObfusctaedAlertsTests */ = {
+		C5D3A00721480A240075D7AB /* ABObfuscatedAlertsTests */ = {
 			isa = PBXGroup;
 			children = (
 				C5D3A01021480A9B0075D7AB /* AlertPresenterTests.swift */,
 				C5D3A00A21480A240075D7AB /* Info.plist */,
 			);
-			path = ABObfusctaedAlertsTests;
+			path = ABObfuscatedAlertsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C5D39FEA2147E2440075D7AB /* ABObfusctaedAlerts */ = {
+		C5D39FEA2147E2440075D7AB /* ABObfuscatedAlerts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5D39FFD2147E2460075D7AB /* Build configuration list for PBXNativeTarget "ABObfusctaedAlerts" */;
+			buildConfigurationList = C5D39FFD2147E2460075D7AB /* Build configuration list for PBXNativeTarget "ABObfuscatedAlerts" */;
 			buildPhases = (
 				C5D39FE72147E2440075D7AB /* Sources */,
 				C5D39FE82147E2440075D7AB /* Frameworks */,
@@ -111,14 +111,14 @@
 			);
 			dependencies = (
 			);
-			name = ABObfusctaedAlerts;
+			name = ABObfuscatedAlerts;
 			productName = ABObfusctaedAlerts;
-			productReference = C5D39FEB2147E2440075D7AB /* ABObfusctaedAlerts.app */;
+			productReference = C5D39FEB2147E2440075D7AB /* ABObfuscatedAlerts.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C5D3A00521480A240075D7AB /* ABObfusctaedAlertsTests */ = {
+		C5D3A00521480A240075D7AB /* ABObfuscatedAlertsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5D3A00D21480A240075D7AB /* Build configuration list for PBXNativeTarget "ABObfusctaedAlertsTests" */;
+			buildConfigurationList = C5D3A00D21480A240075D7AB /* Build configuration list for PBXNativeTarget "ABObfuscatedAlertsTests" */;
 			buildPhases = (
 				C5D3A00221480A240075D7AB /* Sources */,
 				C5D3A00321480A240075D7AB /* Frameworks */,
@@ -129,9 +129,9 @@
 			dependencies = (
 				C5D3A00C21480A240075D7AB /* PBXTargetDependency */,
 			);
-			name = ABObfusctaedAlertsTests;
+			name = ABObfuscatedAlertsTests;
 			productName = ABObfusctaedAlertsTests;
-			productReference = C5D3A00621480A240075D7AB /* ABObfusctaedAlertsTests.xctest */;
+			productReference = C5D3A00621480A240075D7AB /* ABObfuscatedAlertsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -154,7 +154,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C5D39FE62147E2430075D7AB /* Build configuration list for PBXProject "ABObfusctaedAlerts" */;
+			buildConfigurationList = C5D39FE62147E2430075D7AB /* Build configuration list for PBXProject "ABObfuscatedAlerts" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -167,8 +167,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C5D39FEA2147E2440075D7AB /* ABObfusctaedAlerts */,
-				C5D3A00521480A240075D7AB /* ABObfusctaedAlertsTests */,
+				C5D39FEA2147E2440075D7AB /* ABObfuscatedAlerts */,
+				C5D3A00521480A240075D7AB /* ABObfuscatedAlertsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,7 +216,7 @@
 /* Begin PBXTargetDependency section */
 		C5D3A00C21480A240075D7AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C5D39FEA2147E2440075D7AB /* ABObfusctaedAlerts */;
+			target = C5D39FEA2147E2440075D7AB /* ABObfuscatedAlerts */;
 			targetProxy = C5D3A00B21480A240075D7AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -353,13 +353,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V6N36H6375;
-				INFOPLIST_FILE = ABObfusctaedAlerts/Info.plist;
+				INFOPLIST_FILE = ABObfuscatedAlerts/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rifinio.ABObfusctaedAlerts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rifinio.ABObfuscatedAlerts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -372,13 +372,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V6N36H6375;
-				INFOPLIST_FILE = ABObfusctaedAlerts/Info.plist;
+				INFOPLIST_FILE = ABObfuscatedAlerts/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rifinio.ABObfusctaedAlerts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rifinio.ABObfuscatedAlerts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -403,7 +403,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABObfusctaedAlerts.app/ABObfusctaedAlerts";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABObfuscatedAlerts.app/ABObfuscatedAlerts";
 			};
 			name = Debug;
 		};
@@ -424,14 +424,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABObfusctaedAlerts.app/ABObfusctaedAlerts";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABObfuscatedAlerts.app/ABObfuscatedAlerts";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C5D39FE62147E2430075D7AB /* Build configuration list for PBXProject "ABObfusctaedAlerts" */ = {
+		C5D39FE62147E2430075D7AB /* Build configuration list for PBXProject "ABObfuscatedAlerts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5D39FFB2147E2460075D7AB /* Debug */,
@@ -440,7 +440,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5D39FFD2147E2460075D7AB /* Build configuration list for PBXNativeTarget "ABObfusctaedAlerts" */ = {
+		C5D39FFD2147E2460075D7AB /* Build configuration list for PBXNativeTarget "ABObfuscatedAlerts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5D39FFE2147E2460075D7AB /* Debug */,
@@ -449,7 +449,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5D3A00D21480A240075D7AB /* Build configuration list for PBXNativeTarget "ABObfusctaedAlertsTests" */ = {
+		C5D3A00D21480A240075D7AB /* Build configuration list for PBXNativeTarget "ABObfuscatedAlertsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5D3A00E21480A240075D7AB /* Debug */,
