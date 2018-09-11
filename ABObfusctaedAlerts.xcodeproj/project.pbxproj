@@ -12,7 +12,6 @@
 		C5D39FF62147E2460075D7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D39FF52147E2460075D7AB /* Assets.xcassets */; };
 		C5D39FF92147E2460075D7AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D39FF72147E2460075D7AB /* LaunchScreen.storyboard */; };
 		C5D3A0012147E6050075D7AB /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D3A0002147E6050075D7AB /* AlertPresenter.swift */; };
-		C5D3A00921480A240075D7AB /* ABObfusctaedAlertsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D3A00821480A240075D7AB /* ABObfusctaedAlertsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +33,6 @@
 		C5D39FFA2147E2460075D7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D3A0002147E6050075D7AB /* AlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
 		C5D3A00621480A240075D7AB /* ABObfusctaedAlertsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABObfusctaedAlertsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5D3A00821480A240075D7AB /* ABObfusctaedAlertsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABObfusctaedAlertsTests.swift; sourceTree = "<group>"; };
 		C5D3A00A21480A240075D7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,7 +88,6 @@
 		C5D3A00721480A240075D7AB /* ABObfusctaedAlertsTests */ = {
 			isa = PBXGroup;
 			children = (
-				C5D3A00821480A240075D7AB /* ABObfusctaedAlertsTests.swift */,
 				C5D3A00A21480A240075D7AB /* Info.plist */,
 			);
 			path = ABObfusctaedAlertsTests;
@@ -206,7 +203,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5D3A00921480A240075D7AB /* ABObfusctaedAlertsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
