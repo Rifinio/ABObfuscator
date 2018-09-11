@@ -11,16 +11,20 @@ import UIKit
 class ViewController: UIViewController {
 
     var alertButton: UIButton!
+    var obfuscator: XorObfuscator!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         setupView()
         setupContraints()
+
+        let saltKey = "\(String(describing: AppDelegate.self))\(String(describing: NSMutableParagraphStyle.self))"
+        obfuscator = XorObfuscator(salt: saltKey)
     }
 
     func setupView() {
-        view.backgroundColor = UIColor(red: 184/255, green: 0, blue: 184/255, alpha: 1)
+        view.backgroundColor = UIColor(red: 184 / 255, green: 0, blue: 184 / 255, alpha: 1)
 
         alertButton = UIButton(type: .system)
         view.addSubview(alertButton)
@@ -47,7 +51,8 @@ class ViewController: UIViewController {
         }
 
         let alertPresenter = AlertPresenter()
-        alertPresenter.showAlert(from: self, title: "title", message: "message", actions: [action1, action2], completion: nil)
+        let obfuscatedMessage = "Obfuscated message :\n\(obfuscator.obfuscate(string: "hello world!"))"
+        alertPresenter.showAlert(from: self, title: "title", message: obfuscatedMessage, actions: [action1, action2], completion: nil)
     }
 }
 
