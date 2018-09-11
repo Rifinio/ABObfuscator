@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C5D39FEF2147E2440075D7AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D39FEE2147E2440075D7AB /* AppDelegate.swift */; };
 		C5D39FF12147E2440075D7AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D39FF02147E2440075D7AB /* ViewController.swift */; };
-		C5D39FF42147E2440075D7AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D39FF22147E2440075D7AB /* Main.storyboard */; };
 		C5D39FF62147E2460075D7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D39FF52147E2460075D7AB /* Assets.xcassets */; };
 		C5D39FF92147E2460075D7AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D39FF72147E2460075D7AB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		C5D39FEB2147E2440075D7AB /* ABObfusctaedAlerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABObfusctaedAlerts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D39FEE2147E2440075D7AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5D39FF02147E2440075D7AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C5D39FF32147E2440075D7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5D39FF52147E2460075D7AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5D39FF82147E2460075D7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5D39FFA2147E2460075D7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			children = (
 				C5D39FEE2147E2440075D7AB /* AppDelegate.swift */,
 				C5D39FF02147E2440075D7AB /* ViewController.swift */,
-				C5D39FF22147E2440075D7AB /* Main.storyboard */,
 				C5D39FF52147E2460075D7AB /* Assets.xcassets */,
 				C5D39FF72147E2460075D7AB /* LaunchScreen.storyboard */,
 				C5D39FFA2147E2460075D7AB /* Info.plist */,
@@ -124,7 +121,6 @@
 			files = (
 				C5D39FF92147E2460075D7AB /* LaunchScreen.storyboard in Resources */,
 				C5D39FF62147E2460075D7AB /* Assets.xcassets in Resources */,
-				C5D39FF42147E2440075D7AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,14 +139,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C5D39FF22147E2440075D7AB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5D39FF32147E2440075D7AB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C5D39FF72147E2460075D7AB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +271,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V6N36H6375;
 				INFOPLIST_FILE = ABObfusctaedAlerts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V6N36H6375;
 				INFOPLIST_FILE = ABObfusctaedAlerts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
