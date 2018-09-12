@@ -24,7 +24,7 @@
                                     <constraint firstAttribute="width" constant="178" id="gzj-Ac-JD6"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Obfuscated Alerts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIe-NP-wzV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alert Obfuscator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIe-NP-wzV">
                                 <rect key="frame" x="16" y="422" width="343" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="pXC-3I-wRe"/>
