@@ -1,5 +1,5 @@
 <p align="center" >
-  <img src="https://raw.githubusercontent.com/Rifinio/ABObfuscator/develop/Assets/alert-obfuscator-banner.jpg" alt="AFNetworking" title="Alert Obfuscator">
+  <img src="https://raw.githubusercontent.com/Rifinio/ABObfuscator/develop/Assets/alert-obfuscator-banner.jpg" alt="AlertObfuscator" title="Alert Obfuscator">
 </p>
 
 An app that uses an AlertPresenter helper to show Alert controls.
@@ -52,3 +52,8 @@ let revealedString = obfuscator.deobfuscate(key: encryptedString)
 
 # Unit tests
 The project contains two test classes `AlertPresenterTests` and `XorObfuscatorTests`
+
+# Demo App
+<p align="center" >
+  <img src="https://raw.githubusercontent.com/Rifinio/ABObfuscator/master/Assets/demo-alert-obfuscator-gif.gif" alt="AlertObfuscator" title="Alert Obfuscator">
+</p>
